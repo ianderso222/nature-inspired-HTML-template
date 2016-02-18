@@ -1,0 +1,979 @@
+html {}
+:root {
+    8px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    margin: 0;
+    line-height: 1.8;
+    background: #EEEEEE;
+}
+.section_1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/path.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.sidebar {
+    width: 33%;
+    height: 100vh;
+    background: #EEEEEE;
+}
+.sidebar_text {
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+#title_text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+}
+#line {
+    border-bottom: 1px solid black;
+    margin: 0 40%;
+}
+#sub_text {
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 3% 30% 0 30%;
+    color: cadetblue;
+}
+.section_2 {
+    height: 80vh;
+}
+.image_window {
+    height: 60vh;
+    width: 50%;
+    position: relative;
+    right: -25%;
+    top: 10vh;
+}
+.image_window1 {
+    width: 20%;
+    height: 90%;
+    float: left;
+    background-image: url(images/cabin.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: -25px;
+    margin: 0 25px;
+}
+.image_window2 {
+    width: 20%;
+    height: 90%;
+    float: left;
+    background-image: url(images/header.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 25px;
+    margin: 0 25px;
+}
+.image_window_text {
+    width: 30%;
+    height: 90%;
+    float: left;
+    position: relative;
+    top: 25px;
+    margin: 0 25px;
+}
+.image_window_text > p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: cadetblue;
+}
+.image_window_text > span {
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    font-size: 1em;
+}
+.image_window_text > p > button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: .5em;
+    padding: 10px;
+    border-radius: 3px;
+    background: lightgrey;
+    color: cadetblue;
+    box-shadow: none;
+    border: none;
+}
+.sidebar_text > button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    border-radius: 3px;
+    background: lightgrey;
+    color: cadetblue;
+    box-shadow: none;
+    border: none;
+}
+.section_3 {
+    height: 80vh;
+    background-image: url(images/woods.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.text_overlay {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 5em;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    letter-spacing: 3px;
+    margin: 0 10% 0 10%;
+}
+.section_4 {
+    height: 120vh;
+    background-image: url(images/woods.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.white_space {
+    min-height: 50vh;
+    position: relative;
+    top: 20%;
+    background-color: #EEEEEE;
+}
+#icon {}
+ul {
+    padding-left: 0;
+}
+ul#icon {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    left: ;
+}
+ul#icon li {
+    display: inline-block;
+    list-style: none;
+    width: 33%;
+    text-align: center;
+    position: relative;
+    top: 10vh;
+}
+ul#icon li > img {
+    width: 20%;
+}
+ul#icon li > p {
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    font-size: 1rem;
+    font-style: italic;
+    margin: ;
+    color: cadetblue;
+}
+.footer {
+    height: 20vh;
+    width: 100%;
+    background: #EEEEEE;
+}
+ul.footer_list li {
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center
+}
+a {
+    text-decoration: none;
+    color: cadetblue;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+@media (max-width: 480px) {
+    :root {
+        font-size: 6px;
+    }
+    .sidebar {
+        width: 100%;
+        height: 50vh;
+        background: #EEEEEE;
+    }
+    .section_1 {
+        background-attachment: local;
+    }
+    .section_2 {
+        min-height: 80vh;
+    }
+    .image_window {
+        min-height: auto;
+        width: 100%;
+        position: relative;
+        right: 0;
+        top: 10vh;
+    }
+    .image_window1 {
+        width: 50%;
+        height: 20%;
+        float: left;
+        background-image: url(images/cabin.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: 0;
+        margin: 0;
+    }
+    .image_window2 {
+        width: 50%;
+        height: 20%;
+        float: left;
+        background-image: url(images/header.jpeg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: 0;
+        margin: 0;
+    }
+    .image_window_text {
+        width: 60%;
+        height: 80%;
+        float: left;
+        position: relative;
+        top: 25px;
+        margin: 0 50px;
+    }
+    .image_window_text > p {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+        color: cadetblue;
+    }
+    .image_window_text > span {
+        font-family: 'Lora', serif;
+        font-weight: 100;
+        font-size: 1em;
+    }
+    .image_window_text > p > button {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: .5em;
+        padding: 10px;
+        border-radius: 3px;
+        background: lightgrey;
+        color: cadetblue;
+        box-shadow: none;
+        border: none;
+    }
+    .section_3 {
+        height: 80vh;
+        background-image: url(images/woods.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .text_overlay {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 100;
+        font-size: 5em;
+        color: white;
+        position: relative;
+        text-align: center;
+        top: 20%;
+        letter-spacing: 3px;
+        margin: 0 10% 0 10%;
+    }
+    .section_4 {
+        height: 120vh;
+        background-image: url(images/woods.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .white_space {
+        min-height: 70vh;
+        position: relative;
+        top: 20%;
+        background-color: #EEEEEE;
+    }
+    #icon {}
+    ul {
+        padding-left: 0;
+    }
+    ul#icon {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        left: ;
+    }
+    ul#icon li {
+        display: block;
+        list-style: none;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 3vh;
+    }
+    ul#icon li > img {
+        width: 20%;
+    }
+    ul#icon li > p {
+        font-family: 'Lora', serif;
+        font-weight: 100;
+        font-size: 1rem;
+        font-style: italic;
+        margin: ;
+        color: cadetblue;
+    }
+    .footer {
+        height: 20vh;
+        width: 100%;
+        background: #EEEEEE;
+        margin: 15px 0 0 0;
+    }
+    ul.footer_list li {
+        list-style: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    :root {
+        font-size: 8px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .sidebar {
+        width: 33%;
+        height: 100vh;
+        background: #EEEEEE;
+    }
+    .section_1 {
+        background-attachment: local;
+    }
+    .section_2 {
+        min-height: 80vh;
+    }
+    .image_window {
+        height: 60vh;
+        width: 100%;
+        position: relative;
+        right: 0;
+        top: 10vh;
+    }
+    .image_window1 {
+        width: 50%;
+        height: 40%;
+        float: left;
+        background-image: url(images/cabin.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: 0;
+        margin: 0;
+    }
+    .image_window2 {
+        width: 50%;
+        height: 40%;
+        float: left;
+        background-image: url(images/header.jpeg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: 0;
+        margin: 0;
+    }
+    .image_window_text {
+        width: 50%;
+        height: 80%;
+        float: left;
+        position: relative;
+        top: 25px;
+        margin: 0 100px;
+    }
+    .image_window_text > p {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+        color: cadetblue;
+    }
+    .image_window_text > span {
+        font-family: 'Lora', serif;
+        font-weight: 100;
+        font-size: 1em;
+    }
+    .image_window_text > p > button {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: .5em;
+        padding: 10px;
+        border-radius: 3px;
+        background: lightgrey;
+        color: cadetblue;
+        box-shadow: none;
+        border: none;
+    }
+    .section_3 {
+        height: 80vh;
+        background-image: url(images/woods.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .text_overlay {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 100;
+        font-size: 5em;
+        color: white;
+        position: relative;
+        text-align: center;
+        top: 40%;
+        letter-spacing: 3px;
+        margin: 0 10% 0 10%;
+    }
+    .section_4 {
+        height: 120vh;
+        background-image: url(images/woods.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .white_space {
+        min-height: 70vh;
+        position: relative;
+        top: 20%;
+        background-color: #EEEEEE;
+    }
+    #icon {}
+    ul {
+        padding-left: 0;
+    }
+    ul#icon {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+    }
+    ul#icon li {
+        display: block;
+        list-style: none;
+        width: 33%;
+        text-align: center;
+        position: relative;
+        top: 5vh;
+        left: 33%;
+    }
+    ul#icon li > img {
+        width: 50%;
+    }
+    ul#icon li > p {
+        font-family: 'Lora', serif;
+        font-weight: 100;
+        font-size: 1.5rem;
+        font-style: italic;
+        margin: ;
+        color: cadetblue;
+    }
+    .footer {
+        height: 10vh;
+        width: 100%;
+        background: #EEEEEE;
+        margin: 15px 0 0 0;
+    }
+    ul.footer_list li {
+        list-style: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    :root {
+        font-size: 8px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .sidebar {
+        width: 33%;
+        height: 100vh;
+        background: #EEEEEE;
+    }
+    .section_1 {
+        background-attachment: local;
+    }
+    .section_2 {
+        min-height: 80vh;
+    }
+    .image_window {
+        height: 60vh;
+        width: 100%;
+        position: relative;
+        right: 0;
+        top: 10vh;
+    }
+    .image_window1 {
+        width: 50%;
+        height: 40%;
+        float: left;
+        background-image: url(images/cabin.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: 0;
+        margin: 0;
+    }
+    .image_window2 {
+        width: 50%;
+        height: 40%;
+        float: left;
+        background-image: url(images/header.jpeg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: 0;
+        margin: 0;
+    }
+    .image_window_text {
+        width: 50%;
+        height: 80%;
+        float: left;
+        position: relative;
+        top: 25px;
+        margin: 0 100px;
+    }
+    .image_window_text > p {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+        color: cadetblue;
+    }
+    .image_window_text > span {
+        font-family: 'Lora', serif;
+        font-weight: 100;
+        font-size: 1em;
+    }
+    .image_window_text > p > button {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: .5em;
+        padding: 10px;
+        border-radius: 3px;
+        background: lightgrey;
+        color: cadetblue;
+        box-shadow: none;
+        border: none;
+    }
+    .section_3 {
+        height: 80vh;
+        background-image: url(images/woods.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .text_overlay {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 100;
+        font-size: 5em;
+        color: white;
+        position: relative;
+        text-align: center;
+        top: 40%;
+        letter-spacing: 3px;
+        margin: 0 10% 0 10%;
+    }
+    .section_4 {
+        height: 100vh;
+        background-image: url(images/woods.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .white_space {
+        min-height: 70vh;
+        position: relative;
+        top: 5%;
+        background-color: #EEEEEE;
+    }
+    #icon {}
+    ul {
+        padding-left: 0;
+    }
+    ul#icon {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+    }
+    ul#icon li {
+        display: inline-block;
+        list-style: none;
+        width: 33%;
+        text-align: center;
+        position: relative;
+        top: 20vh;
+        left: 0;
+    }
+    ul#icon li > img {
+        width: 33%;
+    }
+    ul#icon li > p {
+        font-family: 'Lora', serif;
+        font-weight: 100;
+        font-size: 1.2rem;
+        font-style: italic;
+        margin: ;
+        color: cadetblue;
+        display: inline-block;
+    }
+    .footer {
+        height: 10vh;
+        width: 100%;
+        background: #EEEEEE;
+        margin: 15px 0 0 0;
+    }
+    ul.footer_list li {
+        list-style: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+    :root {
+        font-size: 8px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .sidebar {
+        width: 33%;
+        height: 100vh;
+        background: #EEEEEE;
+    }
+    .section_1 {
+        background-attachment: local;
+    }
+    .section_2 {
+        min-height: 80vh;
+    }
+    .image_window {
+        height: 60vh;
+        width: 100%;
+        position: relative;
+        right: 0;
+        top: 10vh;
+    }
+    .image_window1 {
+        width: 50%;
+        height: 40%;
+        float: left;
+        background-image: url(images/cabin.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: 0;
+        margin: 0;
+    }
+    .image_window2 {
+        width: 50%;
+        height: 40%;
+        float: left;
+        background-image: url(images/header.jpeg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: 0;
+        margin: 0;
+    }
+    .image_window_text {
+        width: 50%;
+        height: 80%;
+        float: left;
+        position: relative;
+        top: 25px;
+        margin: 0 100px;
+    }
+    .image_window_text > p {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+        color: cadetblue;
+    }
+    .image_window_text > span {
+        font-family: 'Lora', serif;
+        font-weight: 100;
+        font-size: 1em;
+    }
+    .image_window_text > p > button {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: .5em;
+        padding: 10px;
+        border-radius: 3px;
+        background: lightgrey;
+        color: cadetblue;
+        box-shadow: none;
+        border: none;
+    }
+    .section_3 {
+        height: 80vh;
+        background-image: url(images/woods.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .text_overlay {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 100;
+        font-size: 5em;
+        color: white;
+        position: relative;
+        text-align: center;
+        top: 40%;
+        letter-spacing: 3px;
+        margin: 0 10% 0 10%;
+    }
+    .section_4 {
+        height: 120vh;
+        background-image: url(images/woods.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .white_space {
+        min-height: 50vh;
+        position: relative;
+        top: 20%;
+        background-color: #EEEEEE;
+    }
+    #icon {}
+    ul {
+        padding-left: 0;
+    }
+    ul#icon {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        left: ;
+    }
+    ul#icon li {
+        display: inline-block;
+        list-style: none;
+        width: 33%;
+        text-align: center;
+        position: relative;
+        top: 10vh;
+    }
+    ul#icon li > img {
+        width: 33%;
+    }
+    ul#icon li > p {
+        font-family: 'Lora', serif;
+        font-weight: 100;
+        font-size: 1.7rem;
+        font-style: italic;
+        margin: ;
+        color: cadetblue;
+    }
+    .footer {
+        height: 10vh;
+        width: 100%;
+        background: #EEEEEE;
+        margin: 15px 0 0 0;
+    }
+    ul.footer_list li {
+        list-style: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+@media (min-width: 1441px) and (max-width: 1900px) {
+    :root {
+        font-size: 8px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .sidebar {
+        width: 33%;
+        height: 100vh;
+        background: #EEEEEE;
+    }
+    #title_text {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
+        font-size: 5rem;
+    }
+    #line {
+        border-bottom: 1px solid black;
+        margin: 0 40%;
+    }
+    #sub_text {
+        font-family: 'Lora', serif;
+        font-weight: 100;
+        font-size: 3rem;
+        font-style: italic;
+        margin: 3% 30% 0 30%;
+        color: cadetblue;
+    }
+    .section_1 {
+        background-attachment: local;
+    }
+    .section_2 {
+        height: 80vh;
+    }
+    .image_window {
+        height: 60vh;
+        width: 50%;
+        position: relative;
+        right: -25%;
+        top: 10vh;
+    }
+    .image_window1 {
+        width: 20%;
+        height: 90%;
+        float: left;
+        background-image: url(images/cabin.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: -25px;
+        margin: 0 25px;
+    }
+    .image_window2 {
+        width: 20%;
+        height: 90%;
+        float: left;
+        background-image: url(images/header.jpeg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: 25px;
+        margin: 0 25px;
+    }
+    .image_window_text {
+        width: 30%;
+        height: 90%;
+        float: left;
+        position: relative;
+        top: 25px;
+        margin: 0 25px;
+    }
+    .image_window_text > p {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
+        font-size: 4rem;
+        color: cadetblue;
+    }
+    .image_window_text > span {
+        font-family: 'Lora', serif;
+        font-weight: 100;
+        font-size: 1.5em;
+    }
+    .image_window_text > p > button {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: .5em;
+        padding: 10px;
+        border-radius: 3px;
+        background: lightgrey;
+        color: cadetblue;
+        box-shadow: none;
+        border: none;
+    }
+    .section_3 {
+        height: 80vh;
+        background-image: url(images/woods.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .text_overlay {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 100;
+        font-size: 5em;
+        color: white;
+        position: relative;
+        text-align: center;
+        top: 40%;
+        letter-spacing: 3px;
+        margin: 0 10% 0 10%;
+    }
+    .section_4 {
+        height: 120vh;
+        background-image: url(images/woods.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .white_space {
+        min-height: 50vh;
+        position: relative;
+        top: 20%;
+        background-color: #EEEEEE;
+    }
+    #icon {}
+    ul {
+        padding-left: 0;
+    }
+    ul#icon {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        left: ;
+    }
+    ul#icon li {
+        display: inline-block;
+        list-style: none;
+        width: 33%;
+        text-align: center;
+        position: relative;
+        top: 10vh;
+    }
+    ul#icon li > img {
+        width: 33%;
+    }
+    ul#icon li > p {
+        font-family: 'Lora', serif;
+        font-weight: 100;
+        font-size: 1.7rem;
+        font-style: italic;
+        margin: ;
+        color: cadetblue;
+    }
+    .footer {
+        height: 15vh;
+        width: 100%;
+        background: #EEEEEE;
+        margin: 15px 0 0 0;
+    }
+    ul.footer_list li {
+        list-style: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
